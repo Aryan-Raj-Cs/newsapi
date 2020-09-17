@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+ 
+  background-color: #f1f1f1;
+  height:100%
+  
+}
+
+.flex-container > div {
+ 
+  color: black;
+  
+  text-align: center;
+  /* line-height: 600px; */
+ 
+  
+}
+.flex3{
+  /* flex-grow: 3; */
+  border: 1px solid black;
+  width:30%;
+  
+  
+}
+
+.flex6{
+  /* flex-grow: 6; */
+  border: 1px solid black;
+  width:60%;
+}
+.hv:hover {background-color:blue;}
